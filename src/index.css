@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-header {
+  padding: 0em;
+}
+
+.nav {
+  margin-top: 1%;
+}
+
+.navbar-brand {
+  margin-top: 2%;
+  font-size: 1.25rem;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.header-bottom-border {
+  border-bottom: 2px solid #31bea6;
+  margin-top: 5px;
+}
+
+.nav.nav-tabs {
+  border-bottom: 0;
+}
+
+
+.header .nav-item a:hover {
+  background-color: #31bea6;
+  color: white;
+}
+
+.nav-pills {
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+.question-dashboard-header.card-header {
+  padding: 0;
+}
+
+.nav-item {
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+.login-container {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+.react-redux-icon {
+  margin-top: 7%;
+  margin-bottom: 15%;
+}
+
+.form-label {
+  color: #31bea6;
+  font-size: x-large;
+}
+
+.question-card-separator {
+  border-left: 1px solid;
+  height: 135px;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.view-poll-btn.btn.btn-primary {
+   width: 100%;
+   background-color: white;
+   color: #31bea6;
+   border-color: #31bea6;
+}
