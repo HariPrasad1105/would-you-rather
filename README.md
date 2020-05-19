@@ -24,9 +24,9 @@ The app will allow users to
 ## Installation
 Clone the repository, change directories, and use yarn to install the dependencies.
 
-$ git clone https://github.com/HariPrasad1105/would-you-rather.git
-$ cd would-you-rather
-$ yarn install
+### `$ git clone https://github.com/HariPrasad1105/would-you-rather.git <br/>
+$ cd would-you-rather <br/>
+$ yarn install`
 
 ## Available Scripts
 
