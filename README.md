@@ -1,21 +1,22 @@
-Would You Rather
+#Would You Rather
 
-The “Would You Rather” app is a game that presents the user with a poll in the form of:
+The **Would You Rather** app is a game that presents the user with a poll in the form of:
 
-Would you rather…
+##Would you rather…
 
-Option A
-Option B
+- Option A <br />
+- Option B <br />
+
 The user will be able to answer the question and upon answering will be able to see the polling results.
 
 The app will allow users to
 
-view polls
-answer poll questions
-see which polls haven’t been answered yet
-see how other people have voted
-create their own poll questions
-see the ranking of users on a leader board
+- View polls
+- Answer poll questions
+- See which polls haven’t been answered yet
+- See how other people have voted
+- Create their own poll questions
+- See the ranking of users on a leader board
 
 ## Available Scripts
 
