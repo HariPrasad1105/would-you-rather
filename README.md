@@ -1,8 +1,8 @@
-#Would You Rather
+# Would You Rather
 
 The **Would You Rather** app is a game that presents the user with a poll in the form of:
 
-##Would you rather…
+## Would you rather…
 
 - Option A <br />
 - Option B <br />
