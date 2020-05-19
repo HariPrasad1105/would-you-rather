@@ -1,5 +1,6 @@
 # Would You Rather
 
+
 The **Would You Rather** app is a game that presents the user with a poll in the form of:
 
 ## Would you rather…
@@ -9,6 +10,8 @@ The **Would You Rather** app is a game that presents the user with a poll in the
 
 The user will be able to answer the question and upon answering will be able to see the polling results.
 
+It's built with React, Redux, React Router, & Redux Thunk.
+
 The app will allow users to
 
 - View polls
@@ -17,6 +20,13 @@ The app will allow users to
 - See how other people have voted
 - Create their own poll questions
 - See the ranking of users on a leader board
+
+## Installation
+Clone the repository, change directories, and use yarn to install the dependencies.
+
+$ git clone https://github.com/HariPrasad1105/would-you-rather.git
+$ cd would-you-rather
+$ yarn install
 
 ## Available Scripts
 
