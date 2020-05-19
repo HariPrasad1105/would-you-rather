@@ -55,7 +55,7 @@ class Login extends Component {
                   <Form>
                     <Form.Group controlId="exampleForm.ControlSelect1">
                       <Form.Label className="form-label">Sign in</Form.Label>
-                      <Form.Control as="select" onClick={this.handleSelect}>
+                      <Form.Control as="select" onChange={this.handleSelect}>
                         <option>Select User</option>
                         {
                           users.map((user) => (

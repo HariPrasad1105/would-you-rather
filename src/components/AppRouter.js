@@ -1,4 +1,4 @@
-import { Route, withRouter } from "react-router";
+import { Route, withRouter, Switch } from "react-router";
 import NewQuestion from "./NewQuestion";
 import Leaderboard from "./Leaderboard";
 import React from 'react';
@@ -9,19 +9,19 @@ import { connect } from "react-redux";
 import Logout from './Logout';
 
 
-const AppRouter = (props) => {
+const AppRouter = () => {
 
   return (
-
     <div>
-      <Route path="/" exact component={QuestionsDashboard} />
-      <Route path="/add" component={NewQuestion} />
-      <Route path="/leaderboard" component={Leaderboard} />
-      <Route path="/questions/:question_id" component={ViewQuestion} />
-      <Route path="/404" component={Error} />
-      <Route path="/logout" component={Logout} />
+      <Switch>
+        <Route path="/" exact component={QuestionsDashboard} />
+        <Route path="/add" component={NewQuestion} />
+        <Route path="/leaderboard" component={Leaderboard} />
+        <Route path="/questions/:question_id" component={ViewQuestion} />
+        <Route path="/logout" component={Logout} />
+        <Route component={Error} />
+      </Switch>
     </div>
-
   );
 }
 
